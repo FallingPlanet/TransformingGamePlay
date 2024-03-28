@@ -1,6 +1,6 @@
 :root {
-    --background-color: #121212; /* Dark background */
-    --text-color: #E0E0E0; /* Light text */
+    --background-color: #000000; /* Dark background */
+    --text-color: #000000; /* Light text */
     --primary-color: #BB86FC; /* For links or highlights */
     --secondary-color: #03DAC6; /* Alternative color for links or UI elements */
     --header-footer-bg: #1F1B24; /* Darker shade for header and footer */
