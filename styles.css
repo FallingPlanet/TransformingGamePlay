@@ -1,9 +1,9 @@
 :root {
-    --background-color: #000000; /* Dark background */
-    --text-color: #000000; /* Light text */
-    --primary-color: #BB86FC; /* For links or highlights */
-    --secondary-color: #03DAC6; /* Alternative color for links or UI elements */
-    --header-footer-bg: #1F1B24; /* Darker shade for header and footer */
+    --background-color: #121212;
+    --text-color: #E0E0E0;
+    --primary-color: #BB86FC;
+    --secondary-color: #03DAC6;
+    --header-footer-bg: #1F1B24;
 }
 
 body {
@@ -15,21 +15,45 @@ body {
     color: var(--text-color);
 }
 
-section {
+header {
+    background-color: var(--header-footer-bg);
+    color: #ffffff;
     padding: 20px;
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background for section */
-    border-radius: 8px;
-    color: var(--text-color); /* Ensuring text within sections is also light */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
 }
 
 a {
     color: var(--primary-color);
-    text-decoration: none;
 }
 
-a:hover {
-    color: var(--secondary-color);
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
 }
 
-/* Add or adjust styles for other elements as needed */
+footer {
+    background-color: var(--header-footer-bg);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
