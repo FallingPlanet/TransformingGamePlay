@@ -5,7 +5,7 @@ title: Home
 
 # Transforming Game Play
 
-Welcome to our study on the comparative analysis of DCQN and DTQN architectures in reinforcement learning, conducted at Kennesaw State University.
+Welcome to our study on the comparative analysis of DCQN and DTQN architectures in reinforcement learning.
 
 ## Abstract
 
